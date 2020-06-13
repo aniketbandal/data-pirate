@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "pirates-278907",
+  "private_key_id": "d2928c99fd66ebde6bee391a9ed53d8bd827c4fd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDA3yC8RMAHRWxb\nvxHOGsub32/tbHbpsDpuCHjfwx7wquHw/n7u6qtgFNM9+2xetdJNZRCB8b3gEeb8\nHBy8f39qBwnC0KzlTU1G/ZfpoeqmJ6fcZebXA6seXx5NsNlMpwjvNX6eFsXHQR5H\nmn3+STPU1wqkT2b8ZKDO8JKOQK/IrzHb4GlSq78/T90PHvRfwLf4hQx7uUM33+av\niaGRpPB0A2Rugx9/0WVGOqyC2uRHu4y0G8ndYJiP0geDngTto/QGwsmecMk6NRkq\nppQSTp0rbuaEo3G76KpKJ1WsnERIlGO70MTO0/Fg1L3HHBinVEFQ4amvLPEZo9yd\na1Oa1fRlAgMBAAECggEAEbHGwo76IRCk7svaOdLqgBvhHGKZjDnvOl4LnNe9VG4Q\n+XeXtJqR62gtsx+IYy4CI7iUaZ+AgHiT/OglWMPHsDYCFr3nRsgvQUaNs9D3gpPb\nyhQNOAetoMUwNgd2ABrI7o01VxKWxX97ZC1Pxs73ctzhrI5eT+R5flLC10sm9V24\nhabMDQCGBmSqxUxHKvncT9G7QPTuf7XvIu6CU9kViqF0ij35TFZj7zg9/NvK+Nbu\n6GXvc/RoJbLBDQG2OVW2oAp2s/R4OaMKjwC/TyNh2j3QfmnNeyAW/zZIpQrH9aCj\ndAgKfw1PqrgcFRg3S5Uc2EoFxVplBs3j6QAQQMTFBwKBgQDllHfa8BHZmCsAmbMe\nm4jERFelGeQleCC4PR87+CfOGad54v4RsOr2ahqzYnEhaMTD3ygMsqI30OlWI5sW\nH4hPdC7pYRXK9AWHuxC/cDiSpHqyPL5+f/6+S4yTbtzW6XLLy4xYznDttrpObq8T\n8iJQjTtv5Rdb8VAgqCcA4zE9YwKBgQDXETbhYM9J6ADawc3UZKavW8ieYobx6LA4\nxx5HGTn433U4tbFP4D4cXEF5IgpZ6R91C6vlHBpSGC2H5Jv9pDw3ehzhpfDcKih9\n6XkTwoW5OCKPxWw/ASyoWLrpRXUg7UCWOmrDHLAijbEl6TiGQoPn+eDEk9quYGJv\njnwcWjn1lwKBgQC7CQncRFlGfMIL6ywSc4Qo4cTFrSJBpGyDrMgVg0Zqklvu4Q88\nOnYx6p92JW0lWsVzDgsCzUV7U6fFlZxzmZzjnjPZzk6C2erneW9bh4GPdpC/RN2t\nEXnoboRIWLlyHR55CYt9jjJSd9uwqlvYVBvApE8YCfvN2/r7oAKmpnEnIQKBgQCs\n96dPs/CC3Bhz15KW0yxLtGGxIESvohi4UUxEmkFJq043gclNGGhbnsb5iSsSDK/E\nDtL8vJFenRthQ7dBUykq5Qb9Y9xG9ZEDUxaRkczCnicNwhXAxk0IR/RrT/VXufhL\n2kerDBOMdrCWcO+I603y78CZ2N/zhokkd0/R7a7XmQKBgQCJhaxBt5dlL6HfLLB4\nFhJoc7fvE2RnT/CgJQE5ZpLQVrB5N0eWUntP5qByPgZkrcUMVCyjkCkFPANuht//\nz4oRpksHj//Kw/s0YcmR5fTi4KoekBx9A3QWz6PKD7FCyB3b/T0S9/pTjTH8n8jG\nUeKJSdb6D6mTNiv+x1g0QwqHmQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pirates@pirates-278907.iam.gserviceaccount.com",
+  "client_id": "100143020665201935826",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pirates%40pirates-278907.iam.gserviceaccount.com"
+}
