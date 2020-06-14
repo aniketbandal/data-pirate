@@ -48,7 +48,7 @@ public class Detect {
 		  System.out.println(predict(result("outputOcr.txt")));
 	}
 public static String pdftoImage(String filepath) {
-    PreProcess.pdfToPng(filepath,200);
+    PreProcess.pdfToPng(filepath,250);
     System.out.println("pdf converted into image demo.png");
     return "demo.png";
 	
@@ -140,10 +140,14 @@ public static void imagetotext(String filePath) throws IOException, Exception {
 
 	        //System.out.println("Prediction results:");
 	         String result="";
+	         int count=0;
 	        for (AnnotationPayload annotationPayload : response.getPayloadList()) {
-	        result=result+"\n"+annotationPayload.getDisplayName()+"  "+annotationPayload.getTextExtraction().getTextSegment().getContent();
-	        //System.out.println(annotationPayload.getDisplayName()+"  "+annotationPayload.getTextExtraction().getTextSegment().getContent());
-	        	}
+	         if(count==0) {
+	        result=result+annotationPayload.getDisplayName()+":"+annotationPayload.getTextExtraction().getTextSegment().getContent();
+	        count++;
+	         }//System.out.println(annotationPayload.getDisplayName()+"  "+annotationPayload.getTextExtraction().getTextSegment().getContent());
+	        
+	         result=result+"\n"+annotationPayload.getDisplayName()+":"+annotationPayload.getTextExtraction().getTextSegment().getContent();}
 			return result;
 	  }
 		public static String result(String fileName) throws Exception {

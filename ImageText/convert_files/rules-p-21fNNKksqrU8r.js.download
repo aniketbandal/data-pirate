@@ -1,0 +1,7 @@
+/*
+ Quantcast measurement tag
+ Copyright (c) 2008-2019, Quantcast Corp.
+*/
+(function(c,h,g){try{__qc("defaults",c,{labels:"_fp.event.Default"})}catch(m){}var k=function(a){var b=g.createElement("a");b.href=a;return b},l=function(a,b,e){return a?"nc"===a?!b||!e||0>b.indexOf(e):"eq"===a?b===e:"sw"===a?0===b.indexOf(e):"ew"===a?(a=b.length-e.length,b=b.lastIndexOf(e,a),-1!==b&&b===a):"c"===a?0<=b.indexOf(e):!1:!1},f=function(a,b,e){var c;c=h.top===h.self?g.location.href:k(g.referrer).href;l(b,c,e)?a(c):a(!1)},d=function(a){return"array"==={}.toString.call(a).match(/\s([a-zA-Z]+)/)[1].toLowerCase()?
+{labels:a.join(",")}:{labels:""+a}};__qc.apply(null,["rules",[c,null,[[d,"_fp.event.Login"]],[[f,"c","/login"]]],[c,null,[[d,"_fp.event.Support"]],[[f,"sw","https://support.setapp.com"]]],[c,null,[[d,"_fp.event.Blog"]],[[f,"c","/blog"]]],[c,null,[[d,"_fp.event.Pricing"]],[[f,"c","/pricing"]]],[c,null,[[d,"_fp.event.Apps"]],[[f,"c","/apps"]]],[c,null,[[d,"_fp.event.How It Works"]],[[f,"ew","/how-it-works"]]],[c,null,[[d,"_fp.event.Homepage"]],[[function(a,b,c){var d;d=h.top===h.self?g.location.pathname:
+k(g.referrer).pathname;l(b,d,c)?a(d):a(!1)},"eq","/"]]]])})("p-21fNNKksqrU8r",window,document);

@@ -345,7 +345,33 @@ public static String insertString(String originalString, String stringToBeInsert
 
 
 
+public static String getEmail(String fileName) {
+	String mail="";
+	try  
+	{  
+	//the file to be opened for reading  
+	FileInputStream fis=new FileInputStream(fileName);       
+	Scanner sc=new Scanner(fis);   
+	while(sc.hasNextLine())  
+	{  
+	String line=sc.nextLine();
+	if(line.contains("@")) {
+		//System.out.println("original email: "+line);
+		//modifyFile(fileName, line,validateEmail(line));
+		mail=mail+""+line+"\n";
+		
+	}
+	}  
+	sc.close();     //closes the scanner  
+	}  
+	catch(IOException e)  
+	{  
+	e.printStackTrace();  
+	}  
 
+
+	return mail;
+}
 
 //correct email
 public static String correctEmail(String fileName) {
